@@ -1,0 +1,72 @@
+body {
+}
+body main {}
+body main .pf_wrap {
+    /* tq 여기에 100vh */
+    width: 100%; margin: 0 auto; height: 100vh;
+}
+body main .pf_wrap > .swiper-wrapper {}
+body main .pf_wrap > .swiper-wrapper > * {}
+body main .pf_wrap > .swiper-wrapper > .swiper-slide {
+    background-color: firebrick; 
+}
+/* 개별 */
+/* wrap1 - 첫번째 화면- 메인화면 */
+body main .pf_wrap > .swiper-wrapper .wrap1 {
+    background-color:lavender; z-index: 999; 
+}
+body main .pf_wrap > .swiper-wrapper .wrap1 .contents {
+    max-width: 1600px; margin: 0 auto; text-align: center;
+    background-color: darkcyan; padding: 400px 0;
+}
+body main .pf_wrap > .swiper-wrapper .wrap1 .contents h1 {
+    width: 516px; height: auto;
+    position: relative; left: 50%; transform: translateX(-50%);
+    margin-bottom: 20px;
+}
+body main .pf_wrap > .swiper-wrapper .wrap1 .contents h1 img {width: 100%; display: block;}
+body main .pf_wrap > .swiper-wrapper .wrap1 .contents .info_box {
+    display: flex; flex-flow: row nowrap; align-items: center; justify-content: space-between;
+    background-color: darkgray; margin: 0 545px;
+}
+body main .pf_wrap > .swiper-wrapper .wrap1 .contents .info_box p {
+    border-radius: 50px;
+    border: 0.8px solid #222;
+}
+body main .pf_wrap > .swiper-wrapper .wrap1 .contents .info_box .years {
+    width: 80px; line-height: 39px;
+}
+body main .pf_wrap > .swiper-wrapper .wrap1 .contents .info_box .introduce_title {
+    width: 191px; line-height: 39px;
+}
+/* 움직이는 텍스트 */
+body main .pf_wrap > .swiper-wrapper .move_txt {}
+/* wrap 2 -  */
+body main .pf_wrap > .swiper-wrapper .wrap2 {
+    background-color: yellow;
+}
+body main .pf_wrap > .swiper-wrapper .wrap2 .contents {
+    max-width: 1600px; margin: 0 auto;
+    background-color: lightcyan;
+}
+body main .pf_wrap > .swiper-wrapper .wrap2 .contents .ab_line {}
+body main .pf_wrap > .swiper-wrapper .wrap2 .contents .title_box {
+    background-color: salmon; 
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+    padding-bottom: 5px; 
+    border-bottom: 1px solid #222;
+}
+body main .pf_wrap > .swiper-wrapper .wrap2 .contents .title_box  h2 {}
+body main .pf_wrap > .swiper-wrapper .wrap2 .contents .title_box  h2 .right_info_box {}
+body main .pf_wrap > .swiper-wrapper .wrap2 .contents .title_box  h2 .right_info_box p {}
+body main .pf_wrap > .swiper-wrapper .wrap2 .contents .info_contents {
+    /* background-color: darkgray; */
+}
+/* 왼쪽 */
+body main .pf_wrap > .swiper-wrapper .wrap2 .contents .info_contents .left_box {}
+/* 가운데 */
+body main .pf_wrap > .swiper-wrapper .wrap2 .contents .info_contents .middle_box {}
+/* 오른쪽 */
+body main .pf_wrap > .swiper-wrapper .wrap2 .contents .info_contents .right_box {}
+
+body main .pf_wrap > .swiper-wrapper .wrap4 {}
